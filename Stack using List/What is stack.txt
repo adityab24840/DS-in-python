@@ -1,0 +1,20 @@
+What is Stack?
+
+A stack is a useful data structure in programming. It is just like a pile of plates kept on top of each other.
+A stack works on  LIFO(Last In First Out)
+
+Stack has  these Operations.
+
+Push: Add an element to the top of a stack
+Pop: Remove an element from the top of a stack
+IsEmpty: Check if the stack is empty
+IsFull: Check if the stack is full
+Top: Get the value of the top element without removing it
+
+Working of Stack.
+
+A pointer called TOP is used to keep track of the top element in the stack.
+When stack is intilized, we set its value to -1 so that we can check if the stack is empty by comparing TOP == -1.
+On PUSHING an element, we increase the value of TOP and place the new element in the position pointed to by TOP.
+On POPPING an element, we return the element pointed to by TOP and reduce its value.
+Before PUSHING, we check if the stack is already full and before POPPING, we check if the stack is already empty
